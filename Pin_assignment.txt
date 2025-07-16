@@ -1,0 +1,9 @@
+10M08SAM153C8G
+QUARTUS_VERSION "18.1.0 Lite Edition"
+
+PIN_J9 -to SW1 		-- RESET
+PIN_R5 -to Rx <-- FROM Tx of USB-TTL (3V3)
+PIN_P6 -to Tx <-- FROM Rx of USB-TTL (3V3)
+PIN_B4 -to SCL - 3V3 Level
+PIN_A5 -to SDA - 3V3 Level
+PIN_J14 -to SW3 -- User Input
